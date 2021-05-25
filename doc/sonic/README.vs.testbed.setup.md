@@ -61,7 +61,8 @@ We also can find [Jenkinsfile](https://github.com/Azure/sonic-build-tools/blob/m
 Please check `sonic-mgmt` [regression test result](https://sonic-jenkins.westus2.cloudapp.azure.com/job/vs/job/buildimage-vs-image-test/) and checkout the stable version.
 ```
     $ cd ~
-    $ git clone https://github.com/Azure/sonic-mgmt
+    # $ git clone https://github.com/Azure/sonic-mgmt
+    git clone https://github.com/Azure/sonic-mgmt.git
     $ cd sonic-mgmt/ansible
     $ sudo ./setup-management-network.sh
 ```
